@@ -30,7 +30,7 @@ fun MenuScreen() {
         ) {
 
             Text(text = "Exercicio")
-            // Image(painter = painterResource(R.drawable.sua_imagem), contentDescription = null)
+
         }
     }
 }
