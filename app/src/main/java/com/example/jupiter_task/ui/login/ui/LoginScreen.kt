@@ -25,6 +25,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.jupiter_task.R
+import com.example.jupiter_task.model.User
+//import com.example.jupiter_task.repository.UserRepository
 
 @Composable
 fun LoginScreen() {
@@ -57,7 +59,17 @@ fun Login(modifier: Modifier) {
 @Composable
 fun LoginButton() {
     Button(
-        onClick = {},
+        onClick = {
+            //var user = User(
+                //email = emailValue,
+                //password = passwordValue
+            //)
+            //val repository = UserRepository(localContext)
+            //user = repository.finUser(user)
+          // if (user.id != null){
+
+           // }
+        },
         modifier = Modifier
             .fillMaxWidth()
             .height(46.dp),
